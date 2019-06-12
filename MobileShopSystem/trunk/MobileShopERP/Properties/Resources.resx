@@ -1,0 +1,800 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的已支付款额_" xml:space="preserve">
+    <value>请填写正确的已支付款额!</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="Untitled" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Untitled.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmAskforLeave_cmdAdd_Click_添加请假记录成功_" xml:space="preserve">
+    <value>添加请假记录成功!</value>
+  </data>
+  <data name="frmEditPhone_cmdUpdate_Click_" xml:space="preserve">
+    <value>修改手机保修失败!错误原因:
+</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_" xml:space="preserve">
+    <value>添加用户失败!错误原因:
+</value>
+  </data>
+  <data name="frmMain_ShowInfo_今日支出收益" xml:space="preserve">
+    <value>今日固定支出</value>
+  </data>
+  <data name="frmPrivatePay_CleanUI__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请选择正确的生产厂商_" xml:space="preserve">
+    <value>请选择正确的生产厂商!</value>
+  </data>
+  <data name="frmMarketDebt_cmdAdd_Click_请填写正确的市场欠款金额_" xml:space="preserve">
+    <value>请填写正确的市场欠款金额!</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_无敌保修" xml:space="preserve">
+    <value>无敌保修</value>
+  </data>
+  <data name="frmPayout_cmdDelete_Click_" xml:space="preserve">
+    <value>删除支出记录失败
+</value>
+  </data>
+  <data name="frmSplitDebt_frmSplitDebt_Load_欠款" xml:space="preserve">
+    <value>欠款</value>
+  </data>
+  <data name="frmEditPhone_cmbBuyer_SelectedIndexChanged_港行" xml:space="preserve">
+    <value>港行</value>
+  </data>
+  <data name="frmBinPhone_cmdAdd_Click_添加二手机回收完成_已成功添加_" xml:space="preserve">
+    <value>添加二手机回收完成,已成功添加:</value>
+  </data>
+  <data name="frmEquipSell_cmdAdd_Click_请填写正确的配件销售价格_" xml:space="preserve">
+    <value>请填写正确的配件销售价格!</value>
+  </data>
+  <data name="sales-report128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\sales-report128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmSplitDebt_frmSplitDebt_Load_元" xml:space="preserve">
+    <value>元</value>
+  </data>
+  <data name="frmMain_ShowInfo_批量查询客户" xml:space="preserve">
+    <value>批量查询客户</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请选择正确的销售人员_" xml:space="preserve">
+    <value>请选择正确的销售人员!</value>
+  </data>
+  <data name="frmEditCustem_cmdDeleteCustom_Click_永久删除用户成功_" xml:space="preserve">
+    <value>永久删除用户成功!</value>
+  </data>
+  <data name="frmEquipSell_cmdDelete_Click_删除指定配件销售记录失败__错误原因_" xml:space="preserve">
+    <value>删除指定配件销售记录失败! 错误原因:</value>
+  </data>
+  <data name="frmMain_ShowInfo_检测数据库" xml:space="preserve">
+    <value>检测数据库</value>
+  </data>
+  <data name="frmSetting_cmdOK_Click_修改配置成功_" xml:space="preserve">
+    <value>修改配置成功!</value>
+  </data>
+  <data name="frmSellers_frmSellers_Load_职位" xml:space="preserve">
+    <value>职位</value>
+  </data>
+  <data name="Loging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Loging.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_该手机已退货" xml:space="preserve">
+    <value>该手机已退货</value>
+  </data>
+  <data name="binary-tree128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\binary-tree1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMarketDebt_cmdDelete_Click_删除指定的市场欠款失败_失败原因_" xml:space="preserve">
+    <value>删除指定的市场欠款失败!失败原因:</value>
+  </data>
+  <data name="reports128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\reports1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_ShowInfo_修改客户" xml:space="preserve">
+    <value>修改客户</value>
+  </data>
+  <data name="frmEquipSell_cmdAdd_Click_添加配件销售记录成功_已经成功添加" xml:space="preserve">
+    <value>添加配件销售记录成功,已经成功添加</value>
+  </data>
+  <data name="frmNewCustom_ckbEquip_CheckedChanged__0" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="frmAddPhone_frmAddPhone_Load_修改" xml:space="preserve">
+    <value>修改</value>
+  </data>
+  <data name="frmEditCustem_cmdSearch_Click_必须填写手机号_手机串号或保修卡任意一项_" xml:space="preserve">
+    <value>必须填写手机号,手机串号或保修卡任意一项!</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_没有在数据库里找到串号为" xml:space="preserve">
+    <value>没有在数据库里找到串号为</value>
+  </data>
+  <data name="frmDailySell_cmdViewDaily_Click_未查询到任何数据_" xml:space="preserve">
+    <value>未查询到任何数据!</value>
+  </data>
+  <data name="frmMarketDebt_cmdAdd_Click_请填写正确的市场欠款事项_" xml:space="preserve">
+    <value>请填写正确的市场欠款事项!</value>
+  </data>
+  <data name="frmAddPhone_frmAddPhone_Load_数据库连接失败_" xml:space="preserve">
+    <value>数据库连接失败!</value>
+  </data>
+  <data name="未标题-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\未标题-1.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请填写正确的手机IMEI_" xml:space="preserve">
+    <value>请填写正确的手机IMEI!</value>
+  </data>
+  <data name="frmSplitDebt_RefreshSplitDebt_分期付款的金额超出总额_请检查录入__确认键将在修改成正确金额后恢复_" xml:space="preserve">
+    <value>分期付款的金额超出总额!请检查录入! 确认键将在修改成正确金额后恢复!</value>
+  </data>
+  <data name="frmMain_ShowInfo_查看支出收益" xml:space="preserve">
+    <value>查看固定支出</value>
+  </data>
+  <data name="surveys128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\surveys128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请填写正确的配件销售价格_" xml:space="preserve">
+    <value>请填写正确的配件销售价格!</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_月" xml:space="preserve">
+    <value>月</value>
+  </data>
+  <data name="frmBinPhone_ckbisSold_CheckedChanged_未出售" xml:space="preserve">
+    <value>未出售</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的保修卡销售价格_" xml:space="preserve">
+    <value>请填写正确的保修卡销售价格!</value>
+  </data>
+  <data name="frmCustomDebt_cmdDelete_Click_删除指定欠款成功_" xml:space="preserve">
+    <value>删除指定欠款成功!</value>
+  </data>
+  <data name="frmEditCustem_cmdSearch_Click_未搜索到任何用户资料_" xml:space="preserve">
+    <value>未搜索到任何用户资料!</value>
+  </data>
+  <data name="frmMain_ShowInfo_检测网络" xml:space="preserve">
+    <value>检测网络</value>
+  </data>
+  <data name="frmSplitDebt_cmdDelete_Click_删除用户分期付款成功_" xml:space="preserve">
+    <value>删除用户分期付款成功!</value>
+  </data>
+  <data name="frmMain_ShowInfo_返收客户手机" xml:space="preserve">
+    <value>收二手机</value>
+  </data>
+  <data name="frmBinPhone_cmdUpdate_Click_修改二手机回收失败_失败原因_" xml:space="preserve">
+    <value>修改二手机回收失败,失败原因:</value>
+  </data>
+  <data name="frmBinPhone_cmdUpdate_Click_修改二手机回收完成_已成功更改_" xml:space="preserve">
+    <value>修改二手机回收完成,已成功更改:</value>
+  </data>
+  <data name="frmBinPhone_cmdAdd_Click_请填写正确的手机IMEI_" xml:space="preserve">
+    <value>请填写正确的手机IMEI!</value>
+  </data>
+  <data name="frmMain_ShowInfo_销售人员" xml:space="preserve">
+    <value>销售人员</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_添加用户成功_已经添加用户_" xml:space="preserve">
+    <value>添加用户成功,已经添加用户:</value>
+  </data>
+  <data name="frmEditCustem_cmdUpdate_Click_请填写正确的手机号码_" xml:space="preserve">
+    <value>请填写正确的手机号码!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的手机销售价格_" xml:space="preserve">
+    <value>请填写正确的手机销售价格!</value>
+  </data>
+  <data name="frmBinPhone_ckbisSold_CheckedChanged__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="About" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\About.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_ShowInfo_查看今日销售" xml:space="preserve">
+    <value>查看今日销售</value>
+  </data>
+  <data name="frmBinPhone_cmdAdd_Click_添加二手机回收失败_失败原因_" xml:space="preserve">
+    <value>添加二手机回收失败,失败原因:</value>
+  </data>
+  <data name="frmMain_ShowInfo_查询手机" xml:space="preserve">
+    <value>查询手机</value>
+  </data>
+  <data name="frmEditCustem_cmdDeleteCustom_Click_永久删除用户失败__错误原因_" xml:space="preserve">
+    <value>永久删除用户失败! 错误原因:</value>
+  </data>
+  <data name="taobao" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\taobao.ico;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="1290168401_button_ok" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1290168401_button_ok.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEditCustem_cmdDeletePhone_Click_永久删除该手机失败__失败原因_" xml:space="preserve">
+    <value>永久删除该手机失败! 失败原因:</value>
+  </data>
+  <data name="tests128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\tests128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_ShowInfo_系统设置" xml:space="preserve">
+    <value>系统设置</value>
+  </data>
+  <data name="frmCustomDebt_cmdFinish_Click_修改指定欠款到帐失败_" xml:space="preserve">
+    <value>修改指定欠款到帐失败!</value>
+  </data>
+  <data name="frmBinPhone_cmdDelete_Click_删除二手机回收失败_失败原因_" xml:space="preserve">
+    <value>删除二手机回收失败,失败原因:</value>
+  </data>
+  <data name="catalog128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\catalog128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEditPhone_cmdDeltePhone_Click_删除该部手机成功_" xml:space="preserve">
+    <value>删除该部手机成功!</value>
+  </data>
+  <data name="frmAskforLeave_cmdDelete_Click_" xml:space="preserve">
+    <value>删除记录失败! 错误原因:
+</value>
+  </data>
+  <data name="frmCustomDebt_cmdFinish_Click_修改指定欠款到帐成功_" xml:space="preserve">
+    <value>修改指定欠款到帐成功!</value>
+  </data>
+  <data name="frmSplitDebt_cmdAdd_Click_增加用户分期付款成功_" xml:space="preserve">
+    <value>增加用户分期付款成功!</value>
+  </data>
+  <data name="undo24" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\undo24.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="order-history128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\order-history1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_的手机" xml:space="preserve">
+    <value>的手机</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_一年" xml:space="preserve">
+    <value>一年</value>
+  </data>
+  <data name="未标题-11" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\未标题-11.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmPayout_cmdAdd_Click_" xml:space="preserve">
+    <value>添加记录失败!错误原因:
+</value>
+  </data>
+  <data name="frmBinPhone_cmdAdd_Click_请填写正确的手机名称_" xml:space="preserve">
+    <value>请填写正确的手机名称!</value>
+  </data>
+  <data name="frmSplitDebt_frmSplitDebt_Load_信用卡" xml:space="preserve">
+    <value>信用卡</value>
+  </data>
+  <data name="frmSetting_cmdOK_Click_" xml:space="preserve">
+    <value>修改配置发生错误,错误原因
+:</value>
+  </data>
+  <data name="ordering128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ordering1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEquipSell_cmdDelete_Click_删除指定配件销售记录成功_" xml:space="preserve">
+    <value>删除指定配件销售记录成功!</value>
+  </data>
+  <data name="frmSellers_frmSellers_Load_人员编号" xml:space="preserve">
+    <value>人员编号</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的配件销售价格_" xml:space="preserve">
+    <value>请填写正确的配件销售价格!</value>
+  </data>
+  <data name="frmCustomDebt_cmdAdd_Click_请填写正确的客户欠款金额_" xml:space="preserve">
+    <value>请填写正确的客户欠款金额!</value>
+  </data>
+  <data name="frmProfit_frmProfit_Load__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="frmPayout_cmdAdd_Click_添加支出记录成功" xml:space="preserve">
+    <value>添加支出记录成功</value>
+  </data>
+  <data name="frmEditPhone_cmdUpdate_Click_修改手机保修成功_" xml:space="preserve">
+    <value>修改手机保修成功!</value>
+  </data>
+  <data name="frmProfit_frmProfit_Load_读取固定支出错误_" xml:space="preserve">
+    <value>读取固定支出错误!</value>
+  </data>
+  <data name="frmEditCustem_cmdUpdate_Click_修改用户成功_" xml:space="preserve">
+    <value>修改用户成功!</value>
+  </data>
+  <data name="QQ" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\QQ.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_数据库ToolStripMenuItem_Click_龙翔数据库连接失败_" xml:space="preserve">
+    <value>龙翔数据库连接失败!</value>
+  </data>
+  <data name="22" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\22.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmSplitDebt_RefreshSplitDebt_金额错误" xml:space="preserve">
+    <value>金额错误</value>
+  </data>
+  <data name="frmMarketDebtEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frmMarketDebtEditor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMarketDebt_cmdFix_Click_指定的市场结款成功_" xml:space="preserve">
+    <value>指定的市场结款成功!</value>
+  </data>
+  <data name="distributor-report128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\distributor-report1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEquipSell_cmdAdd_Click_请填写正确的配件成本价格_" xml:space="preserve">
+    <value>请填写正确的配件成本价格!</value>
+  </data>
+  <data name="frmEditPhone_cmbBuyer_SelectedIndexChanged_国行" xml:space="preserve">
+    <value>国行</value>
+  </data>
+  <data name="frmSplitDebt_cmdAdd_Click_增加用户分期付款失败__错误原因_" xml:space="preserve">
+    <value>增加用户分期付款失败! 错误原因:</value>
+  </data>
+  <data name="frmMain_数据库ToolStripMenuItem_Click_龙翔数据库连接正常_" xml:space="preserve">
+    <value>龙翔数据库连接正常!</value>
+  </data>
+  <data name="frmCommision_cmdView_Click__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="addressbook-add128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook-add1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmSellers_button1_Click_" xml:space="preserve">
+    <value>用户更改失败
+</value>
+  </data>
+  <data name="frmCustomDebt_cmdAdd_Click_请填写正确的客户欠款事项_" xml:space="preserve">
+    <value>请填写正确的客户欠款事项!</value>
+  </data>
+  <data name="frmMain_网站FTPToolStripMenuItem_Click_龙翔服务器网络连接正常_" xml:space="preserve">
+    <value>龙翔服务器网络连接正常!</value>
+  </data>
+  <data name="frmEquipSell_CleanUI__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="frmAskforLeave_cmdSearch_Click_查询不到任何记录_" xml:space="preserve">
+    <value>查询不到任何记录!</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_请填写正确的串号再进行查询_" xml:space="preserve">
+    <value>请填写正确的串号再进行查询!</value>
+  </data>
+  <data name="frmEquipSell_cmdAdd_Click_请填写正确的配件名称_" xml:space="preserve">
+    <value>请填写正确的配件名称!</value>
+  </data>
+  <data name="frmSplitDebt_RefreshSplitDebt_读取分期付款数据失败_" xml:space="preserve">
+    <value>读取分期付款数据失败!</value>
+  </data>
+  <data name="frmAskforLeave_cmdAdd_Click_" xml:space="preserve">
+    <value>添加请假记录失败! 错误原因:
+</value>
+  </data>
+  <data name="frmBinPhone_cmdDelete_Click_删除二手机回收完成_已成功添加_" xml:space="preserve">
+    <value>删除二手机回收完成</value>
+  </data>
+  <data name="frmCustomDebt_CleanUI__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="search-database128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\search-database128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmPrivatePay_cmdAdd_Click_请正确填写金额_" xml:space="preserve">
+    <value>请正确填写金额!</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请填写正确的保修卡销售价格_" xml:space="preserve">
+    <value>请填写正确的保修卡销售价格!</value>
+  </data>
+  <data name="frmPayout_cmdAdd_Click_请正确填写金额_" xml:space="preserve">
+    <value>请正确填写金额!</value>
+  </data>
+  <data name="frmProfit_frmProfit_Load_读取利润及提成错误_" xml:space="preserve">
+    <value>读取利润及提成错误!</value>
+  </data>
+  <data name="frmCommision_cmdView_Click_查询提成失败_" xml:space="preserve">
+    <value>查询提成失败!</value>
+  </data>
+  <data name="frmMain_ShowInfo_查看利润" xml:space="preserve">
+    <value>查看利润</value>
+  </data>
+  <data name="frmEditCustem_cmdSearch_Click_" xml:space="preserve">
+    <value>查询客户数据失败,失败原因:
+</value>
+  </data>
+  <data name="frmAddPhone" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frmAddPhone.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmPayout_cmdDelete_Click_删除支出记录成功_" xml:space="preserve">
+    <value>删除支出记录成功!</value>
+  </data>
+  <data name="frmEditCustem_cmdUpdate_Click_有" xml:space="preserve">
+    <value>有</value>
+  </data>
+  <data name="frmBinPhone_cmdAdd_Click_请填写正确的手机维修价格_" xml:space="preserve">
+    <value>请填写正确的手机维修价格!</value>
+  </data>
+  <data name="frmSellers_button1_Click_用户更改已经成功" xml:space="preserve">
+    <value>用户更改已经成功</value>
+  </data>
+  <data name="frmCustomDebt_cmdAdd_Click_添加客户欠款成功_" xml:space="preserve">
+    <value>添加客户欠款成功!</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_延长保修" xml:space="preserve">
+    <value>延长保修</value>
+  </data>
+  <data name="frmBinPhone_ckbisSold_CheckedChanged_已出售" xml:space="preserve">
+    <value>已出售</value>
+  </data>
+  <data name="frmMain_ShowInfo_返收手机销售" xml:space="preserve">
+    <value>卖二手机</value>
+  </data>
+  <data name="frmCustomDebt_cmdAdd_Click_添加客户欠款失败_失败原因_" xml:space="preserve">
+    <value>添加客户欠款失败,失败原因:</value>
+  </data>
+  <data name="1295664696_Credit_Card" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1295664696_Credit_Card.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请填写正确的手机成本价格_" xml:space="preserve">
+    <value>请填写正确的手机成本价格!</value>
+  </data>
+  <data name="frmMain_ShowInfo_查看销售人员请假记录" xml:space="preserve">
+    <value>查看销售人员请假记录</value>
+  </data>
+  <data name="frmMarketDebt_CleanUI__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请选择正确的生产厂商_" xml:space="preserve">
+    <value>请选择正确的生产厂商!</value>
+  </data>
+  <data name="frmNewCustom_cmbPayment_SelectedIndexChanged__0" xml:space="preserve">
+    <value>0.0</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_三年" xml:space="preserve">
+    <value>三年</value>
+  </data>
+  <data name="frmMain_ShowInfo_市场结帐" xml:space="preserve">
+    <value>市场结帐</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请选择正确的手机型号_" xml:space="preserve">
+    <value>请选择正确的手机型号!</value>
+  </data>
+  <data name="frmMain_ShowInfo_查看今日配件销售" xml:space="preserve">
+    <value>查看今日配件销售</value>
+  </data>
+  <data name="frmMain_网站FTPToolStripMenuItem_Click_龙翔服务器网络连接失败_" xml:space="preserve">
+    <value>龙翔服务器网络连接失败!</value>
+  </data>
+  <data name="frmMarketDebt_cmdAdd_Click_添加市场欠款失败__错误原因_" xml:space="preserve">
+    <value>添加市场欠款失败! 错误原因:</value>
+  </data>
+  <data name="frmCommision_cmdView_Click_非销售人员或店员没有提成_" xml:space="preserve">
+    <value>非销售人员或店员没有提成!</value>
+  </data>
+  <data name="frmEditCustem_cmdUpdate_Click_已经勾选保修卡_但未填写保修卡编号_" xml:space="preserve">
+    <value>已经勾选保修卡,但未填写保修卡编号!</value>
+  </data>
+  <data name="frmMain_ShowInfo_刷卡识别" xml:space="preserve">
+    <value>刷卡识别</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请填写正确的配件成本价格_" xml:space="preserve">
+    <value>请填写正确的配件成本价格!</value>
+  </data>
+  <data name="frmCustomDebt_cmdAdd_Click_请填写正确的客户欠款人名称_" xml:space="preserve">
+    <value>请填写正确的客户欠款人名称!</value>
+  </data>
+  <data name="frmViewProfit_cmdDelete_Click_删除支出记录成功_" xml:space="preserve">
+    <value>删除支出记录成功!</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_日" xml:space="preserve">
+    <value>日</value>
+  </data>
+  <data name="frmAskforLeaveEditor_cmdOK_Click_请填写正确的请假时间_" xml:space="preserve">
+    <value>请填写正确的请假时间!</value>
+  </data>
+  <data name="frmMarketDebt_cmdAdd_Click_添加市场欠款成功_" xml:space="preserve">
+    <value>添加市场欠款成功!</value>
+  </data>
+  <data name="frmLogin_frmLogin_Load__Version_" xml:space="preserve">
+    <value> Version:</value>
+  </data>
+  <data name="frmSellers_frmSellers_Load_读取数据库失败_" xml:space="preserve">
+    <value>读取数据库失败!</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_软硬全保" xml:space="preserve">
+    <value>软硬全保</value>
+  </data>
+  <data name="frmSellers_frmSellers_Load_人员姓名" xml:space="preserve">
+    <value>人员姓名</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click___购买机型为" xml:space="preserve">
+    <value>, 购买机型为</value>
+  </data>
+  <data name="frmCustomDebt_cmdDelete_Click_删除指定欠款失败__错误原因_" xml:space="preserve">
+    <value>删除指定欠款失败! 错误原因:</value>
+  </data>
+  <data name="frmAddPhone_ckbEquip_CheckedChanged__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="frmMarketDebt_cmdFix_Click_指定的市场结款失败_失败原因_" xml:space="preserve">
+    <value>指定的市场结款失败!失败原因:</value>
+  </data>
+  <data name="frmMain_ShowInfo_市场欠款" xml:space="preserve">
+    <value>市场欠款</value>
+  </data>
+  <data name="frmAskforLeave_cmdDelete_Click_删除记录成功_" xml:space="preserve">
+    <value>删除记录成功!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的手机IMEI_" xml:space="preserve">
+    <value>请填写正确的手机IMEI!</value>
+  </data>
+  <data name="frmSplitDebt_cmdAdd_Click_还款日期_" xml:space="preserve">
+    <value>还款日期:</value>
+  </data>
+  <data name="product-sales-report128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\product-sales-report1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2006106225525122" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2006106225525122.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEquipSellEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frmEquipSellEditor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="addressbook-edit128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook-edit128.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="keys128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\keys1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_ShowInfo_销售人员提成" xml:space="preserve">
+    <value>销售人员提成</value>
+  </data>
+  <data name="frmReport_cmdDailyPath_Click_选择一个用于输出的文件夹" xml:space="preserve">
+    <value>选择一个用于输出的文件夹</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请选择正确的手机型号_" xml:space="preserve">
+    <value>请选择正确的手机型号!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_已经存在该用户_将跳转到用户修改页面进行操作_" xml:space="preserve">
+    <value>已经存在该用户,将跳转到用户修改页面进行操作!</value>
+  </data>
+  <data name="frmAddPhone_cmdOK_Click_请填写正确的手机销售价格_" xml:space="preserve">
+    <value>请填写正确的手机销售价格!</value>
+  </data>
+  <data name="未标题-12" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\未标题-12.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="ajax-loader" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajax-loader.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_ShowInfo_客户欠款管理" xml:space="preserve">
+    <value>客户欠款管理</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_终身" xml:space="preserve">
+    <value>终身</value>
+  </data>
+  <data name="frmAddPhone_frmAddPhone_Load_增加" xml:space="preserve">
+    <value>增加</value>
+  </data>
+  <data name="frmEditCustem_cmdDeletePhone_Click_永久删除该手机成功_" xml:space="preserve">
+    <value>永久删除该手机成功!</value>
+  </data>
+  <data name="frmMarketDebt_cmdDelete_Click_删除指定的市场欠款成功" xml:space="preserve">
+    <value>删除指定的市场欠款成功</value>
+  </data>
+  <data name="Readcard" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Readcard.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmSplitDebt_cmdDelete_Click_删除用户分期付款失败__错误原因_" xml:space="preserve">
+    <value>删除用户分期付款失败! 错误原因:</value>
+  </data>
+  <data name="frmPayoutEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frmPayoutEditor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmProfit_frmProfit_Load_下载厂商列表失败_" xml:space="preserve">
+    <value>下载厂商列表失败!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的手机成本价格_" xml:space="preserve">
+    <value>请填写正确的手机成本价格!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请选择正确的销售人员_" xml:space="preserve">
+    <value>请选择正确的销售人员!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_已经勾选保修卡_但未填写保修卡编号_" xml:space="preserve">
+    <value>已经勾选保修卡,但未填写保修卡编号!</value>
+  </data>
+  <data name="frmNewCustom_frmNewCustom_Load_数据库连接失败_" xml:space="preserve">
+    <value>数据库连接失败!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的手机号码_" xml:space="preserve">
+    <value>请填写正确的手机号码!</value>
+  </data>
+  <data name="frmMain_ShowInfo_添加客户" xml:space="preserve">
+    <value>添加客户</value>
+  </data>
+  <data name="frmEditPhone_cmdDeltePhone_Click_删除该部手机失败__错误原因_" xml:space="preserve">
+    <value>删除该部手机失败! 错误原因:</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_两年" xml:space="preserve">
+    <value>两年</value>
+  </data>
+  <data name="frmEditPhone_cmbBuyer_SelectedIndexChanged_水货" xml:space="preserve">
+    <value>水货</value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_软件保修" xml:space="preserve">
+    <value>软件保修</value>
+  </data>
+  <data name="frmAskforLeave_cmdSearch_Click_必须选择一个销售人员进行查看_" xml:space="preserve">
+    <value>必须选择一个销售人员进行查看!</value>
+  </data>
+  <data name="frmPayout_CleanUI__0" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="addressbook-search128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\addressbook-search1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmEquipSell_cmdAdd_Click_添加配件销售记录失败_错误原因_" xml:space="preserve">
+    <value>添加配件销售记录失败,错误原因:</value>
+  </data>
+  <data name="frmCommision_cmdView_Click_必须选择一个销售人员再进行查看_" xml:space="preserve">
+    <value>必须选择一个销售人员再进行查看!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_刚刚添加的用户为_" xml:space="preserve">
+    <value>刚刚添加的用户为:</value>
+  </data>
+  <data name="frmBinPhonesEditor" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\frmBinPhonesEditor.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmMain_ShowInfo_配件销售" xml:space="preserve">
+    <value>配件销售</value>
+  </data>
+  <data name="Sales-by-Payment-Method-rep128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Sales-by-Payment-Method-rep1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmViewProfit_cmdDelete_Click_" xml:space="preserve">
+    <value>删除支出记录失败
+</value>
+  </data>
+  <data name="frmNewCustom_CleanUI_N_A" xml:space="preserve">
+    <value>N/A</value>
+  </data>
+  <data name="frmEditCustem_cmdUpdate_Click_" xml:space="preserve">
+    <value>修改用户失败!错误原因
+</value>
+  </data>
+  <data name="frmMarketDebt_cmdAdd_Click_请填写正确的市场欠款债权人_" xml:space="preserve">
+    <value>请填写正确的市场欠款债权人!</value>
+  </data>
+  <data name="Rank-History128" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Rank-History1281.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmSplitDebt_cmdAdd_Click_" xml:space="preserve">
+    <value>
+备注:</value>
+  </data>
+  <data name="frmAskforLeaveEditor_frmAskforLeaveEditor_Load_修改请假记录____销售人员__" xml:space="preserve">
+    <value>修改请假记录 -- 销售人员: </value>
+  </data>
+  <data name="frmEditPhone_cmdSearch_Click_年" xml:space="preserve">
+    <value>年</value>
+  </data>
+  <data name="frmBinPhone_cmdAdd_Click_请填写正确的手机收取价格_" xml:space="preserve">
+    <value>请填写正确的手机收取价格!</value>
+  </data>
+  <data name="frmNewCustom_cmdAddUser_Click_请填写正确的配件成本价格_" xml:space="preserve">
+    <value>请填写正确的配件成本价格!</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="1303232260_system-software-update" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\1303232260_system-software-update.png;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+</root>

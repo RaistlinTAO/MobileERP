@@ -1,0 +1,67 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="DataControler.Crype.clsKeyHash" Collapsed="true">
+    <Position X="0.5" Y="0.5" Width="1.5" />
+    <NestedTypes>
+      <Struct Name="DataControler.Crype.clsKeyHash.ActiveInfo" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>Crype\clsKeyHash.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Struct>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>AAAACAAQAEAABAQhAAAAgEAAAABAAAEywAAAAAAgCBA=</HashCode>
+      <FileName>Crype\clsKeyHash.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataControler.Crype.EnDeCrype" Collapsed="true">
+    <Position X="4" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>QAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAgAAAAAAAA=</HashCode>
+      <FileName>Crype\EnDeCrype.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTP.FTPclient" Collapsed="true">
+    <Position X="0.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>SAAAAAAAABABAACGAQAQAAiAAEIAAARCMAcQIAAACAA=</HashCode>
+      <FileName>FTP\FtpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTP.FTPfileInfo">
+    <Position X="4" Y="1.5" Width="1.5" />
+    <NestedTypes>
+      <Enum Name="FTP.FTPfileInfo.DirectoryEntryTypes" Collapsed="true">
+        <TypeIdentifier>
+          <NewMemberFileName>FTP\FtpClient.cs</NewMemberFileName>
+        </TypeIdentifier>
+      </Enum>
+    </NestedTypes>
+    <TypeIdentifier>
+      <HashCode>CAAAAwAAAAACwIYAEAAAAAAACAggAQAAABAAAAIACAA=</HashCode>
+      <FileName>FTP\FtpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="FTP.FTPdirectory" Collapsed="true">
+    <Position X="2.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAEAQAAAABAABAAAAAAAAQAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>FTP\FtpClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataControler.Log.clsLog" Collapsed="true">
+    <Position X="2.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAACAAAAAAAAAAAAAAAAAAAAAAAQEACAAEABACAAA=</HashCode>
+      <FileName>Log\clsLog.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="DataControler.Mysql.MysqlController" Collapsed="true">
+    <Position X="0.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>1MkDGHMMKAgIqwA2IgWAhnRgHgcDA8W4Kg4MI52KEgg=</HashCode>
+      <FileName>Mysql\MysqlController.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Microsoft YaHei" Size="9" />
+</ClassDiagram>

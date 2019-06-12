@@ -1,0 +1,239 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmViewPicture_ChangeText_背面图" xml:space="preserve">
+    <value>背面图</value>
+  </data>
+  <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
+  <data name="ajax-loader1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajax-loader1.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="123" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\123.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmViewPicture_ChangeText_正面图" xml:space="preserve">
+    <value>正面图</value>
+  </data>
+  <data name="frmViewPicture_ChangeText_其他3" xml:space="preserve">
+    <value>其他3</value>
+  </data>
+  <data name="windows7-innerlight-by-remixedcat" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\windows7-innerlight-by-remixedcat.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmBatchPrices_frmBatchPrices_Load_数据库访问异常_请关闭后重试_" xml:space="preserve">
+    <value>数据库访问异常,请关闭后重试!</value>
+  </data>
+  <data name="frmBatchPrices_frmBatchPrices_Load_机型" xml:space="preserve">
+    <value>机型</value>
+  </data>
+  <data name="frmOther_cmdBackupDB_Click_Backup_Database" xml:space="preserve">
+    <value>Backup Database (Windows 7下请确认目录可写)</value>
+  </data>
+  <data name="frmViewPicture_ChangeText_其他1" xml:space="preserve">
+    <value>其他1</value>
+  </data>
+  <data name="frmBatchPrices_frmBatchPrices_Load_颜色产地" xml:space="preserve">
+    <value>颜色产地</value>
+  </data>
+  <data name="frmBatchPrices_cmdUpdate_Click___" xml:space="preserve">
+    <value> -</value>
+  </data>
+  <data name="frmViewPicture_ChangeText_其他2" xml:space="preserve">
+    <value>其他2</value>
+  </data>
+  <data name="frmOther_cmdBackupDB_Click_请等待一会CMD窗体完成后检视SQL文件" xml:space="preserve">
+    <value>备份数据库完毕,请检查!</value>
+  </data>
+  <data name="frmBatchPrices_cmdUpdate_Click_递交价格报表失败_失败原因__r_n" xml:space="preserve">
+    <value>递交价格报表失败,失败原因:/r/n</value>
+  </data>
+  <data name="frmOther_cmdCheckMarketPrice_Click_核查网站市场价格成功_" xml:space="preserve">
+    <value>核查网站市场价格成功!</value>
+  </data>
+  <data name="frmOther_cmdCheckMarketPrice_Click_核查网站市场价格失败__错误原因_" xml:space="preserve">
+    <value>核查网站市场价格失败! 错误原因:</value>
+  </data>
+  <data name="frmBatchPrices_cmdUpdate_Click_递交价格报表成功" xml:space="preserve">
+    <value>递交价格报表成功</value>
+  </data>
+  <data name="frmOther_cmdBackupDB_Click_SQL_Dump___sql" xml:space="preserve">
+    <value>SQL Dump|*.sql</value>
+  </data>
+  <data name="frmOther_cmdCleanSCache_Click_更新网站缓存完毕_" xml:space="preserve">
+    <value>更新网站缓存完毕!</value>
+  </data>
+  <data name="frmLogin_frmLogin_Load__V_" xml:space="preserve">
+    <value> V:</value>
+  </data>
+  <data name="Loging" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Loging.jpg;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="frmOther_cmdClearECache_Click_更新手机大全缓存完毕_" xml:space="preserve">
+    <value>更新手机大全缓存完毕!</value>
+  </data>
+  <data name="frmBatchPrices_frmBatchPrices_Load_价格" xml:space="preserve">
+    <value>价格</value>
+  </data>
+  <data name="ajax-loader3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\ajax-loader3.gif;System.Drawing.Bitmap, System.Drawing, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+	<data name = "frmSecondHands_S_Click_">
+		<value><![CDATA[修改价格失败!请重新递交,错误原因:
+]]></value>
+	</data>
+	<data name = "frmSecondHands_S_Click_修改价格成功_">
+		<value xml:space = "preserve">修改价格成功!</value>
+	</data>
+	<data name = "frmSecondHands_cmdDelete_Click_删除该二手信息成功_">
+		<value xml:space = "preserve">删除该二手信息成功!</value>
+	</data>
+	<data name = "frmSecondHands_cmdDelete_Click_">
+		<value><![CDATA[删除该二手信息失败,错误原因:
+!]]></value>
+	</data>
+	<data name = "frmSecondHands_RefreshSecondHands_查询二手机型数据错误_">
+		<value xml:space = "preserve">查询二手机型数据错误!</value>
+	</data>
+	<data name = "Program_Main_错误的参数__请从CRM管理系统或CMS系统中启动本程序_">
+		<value xml:space = "preserve">错误的参数! 请从CRM管理系统或CMS系统中启动本程序!</value>
+	</data>
+	<data name = "frmOther_cmdUpdateNews_Click_核查网站新闻成功_">
+		<value xml:space = "preserve">核查网站新闻成功!</value>
+	</data>
+	<data name = "frmOther_cmdUpdateNews_Click_核查网站新闻失败_错误原因_">
+		<value xml:space = "preserve">核查网站新闻失败,错误原因:</value>
+	</data>
+	<data name = "frmQnA_RefreshSecondHands_查询客户询问数据错误_">
+		<value xml:space = "preserve">查询客户询问数据错误!</value>
+	</data>
+	<data name = "frmQnA_cmdDelete_Click_删除该询问信息成功_">
+		<value xml:space = "preserve">删除该询问信息成功!</value>
+	</data>
+	<data name = "frmQnA_cmdDelete_Click_">
+		<value><![CDATA[删除该询问信息失败,错误原因:
+!]]></value>
+	</data>
+	<data name = "frmQnA_S_Click_咨询回复成功_">
+		<value xml:space = "preserve">咨询回复成功!</value>
+	</data>
+	<data name = "frmQnA_S_Click_">
+		<value><![CDATA[咨询回复失败!请重新递交,错误原因:
+]]></value>
+	</data>
+</root>
